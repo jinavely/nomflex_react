@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/nomflex_react/static/js/main.a40f9aa2.js",
+    "main.js": "/nomflex_react/static/js/main.c7975fe3.js",
     "index.html": "/nomflex_react/index.html",
-    "main.a40f9aa2.js.map": "/nomflex_react/static/js/main.a40f9aa2.js.map"
+    "main.c7975fe3.js.map": "/nomflex_react/static/js/main.c7975fe3.js.map"
   },
   "entrypoints": [
-    "static/js/main.a40f9aa2.js"
+    "static/js/main.c7975fe3.js"
   ]
 }
