@@ -75,20 +75,20 @@ function Home() {
           />
 
           {/* 현재 상영 영화 */}
-          {/* <Slide
+          <Slide
             id="nowPlayingData"
             division="movies"
             title="현재 상영 영화"
             slideData={nowPlayingData?.results}
-          /> */}
+          />
 
           {/* 상영 예정 영화 */}
-          {/* <Slide
+          <Slide
             id="upcomingData"
             division="movies"
             title="상영 예정 영화"
             slideData={upcomingData?.results}
-          /> */}
+          />
 
           <Modal
             id="movies"

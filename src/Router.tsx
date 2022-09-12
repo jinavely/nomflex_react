@@ -15,6 +15,7 @@ function Router() {
           <Route path="/tvs/:category/:movieId" element={<Home />} />
         </Route>
         <Route path="/" element={<Home />}>
+          <Route path="/nomflex_react" element={<Home />} />
           <Route path="/movies/:category/:movieId" element={<Home />} />
         </Route>
         <Route path="/*" element={<NotFound />} />

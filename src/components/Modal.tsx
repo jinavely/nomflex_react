@@ -87,6 +87,8 @@ export function Modal({ id, division, modalData }: IModal) {
             animate={{ opacity: 1 }}
           />
           <BigMovie
+            drag
+            dragConstraints={{ left: -500, right: 500, top: 0, bottom: 500}}
             style={{ top: scrollY.get() + 100 }}
             layoutId={bigMovieMatch.params.movieId}
           >

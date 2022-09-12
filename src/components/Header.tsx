@@ -123,9 +123,9 @@ const scrollVariants = {
 function Header() {
   // Laval
   const homeMatch = useMatch('/');
-  const movieIdMatch = useMatch('/movies/:movieId');
+  const movieIdMatch = useMatch('/movies/:category/:movieId');
   const tvMatch = useMatch('/tvs');
-  const tvIdMatch = useMatch('/tvs/:movieId');
+  const tvIdMatch = useMatch('/tvs/:category/:movieId');
   const searchMatch = useMatch('/search');
 
   // scroll
